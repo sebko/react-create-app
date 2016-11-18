@@ -7,6 +7,6 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
 });
 
-it('should fail', () => {
+it('should pass', () => {
   expect(true).toBe(true);
 });
