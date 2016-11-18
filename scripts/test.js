@@ -15,5 +15,10 @@ if (!process.env.CI) {
   argv.push('--watch');
 }
 
+// Add coverage report if on CI
+if (process.env.CI) {
+    argv.push('--coverage');
+}
+
 
 jest.run(argv);
