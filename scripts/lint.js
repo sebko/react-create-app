@@ -9,7 +9,7 @@ gulp
     reportOutputDir: 'reports/lint',
     reporters: [
       {formatter: 'verbose', console: true},
-      {formatter: stylelintCheckstyleFormatter, save: 'report/report.xml'}
+      {formatter: stylelintCheckstyleFormatter, save: 'report.xml'}
     ],
     debug: true
   }));

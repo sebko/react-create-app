@@ -4,6 +4,6 @@ const reporter = new reporters.JUnitXmlReporter({
   // per test to avoid collisions.
   consolidateAll: false,
   filePrefix: 'jest-junit-result-',
-  savePath: 'output/',
+  savePath: 'reports/jest/',
 });
 jasmine.getEnv().addReporter(reporter);
